@@ -3,7 +3,8 @@ h1 {
 }
 
 button {
-    background-color: #FFCBBB;
+    
+    background-color: #DB6400;
     border-radius: 5px;
     border-style: none;
     padding: 5px;
@@ -31,7 +32,7 @@ button:active {
   /* width: 50%; */
   top: 80%;
   max-width:300px;
-  background: #FAE3D9;
+  background: #FFCBBB;
   -webkit-box-shadow: 0 35px 20px #777;
   -moz-box-shadow: 0 35px 20px #777;
   box-shadow: 0 35px 20px #777;
@@ -63,6 +64,13 @@ input:focus {
     /* margin-left: 5vh; */
 }
 
+li {
+    list-style-type: none;
+    padding: 5px;
+    border-bottom: solid;
+    border-bottom: #777;
+}
+
 #app {
     /* min-width: 100vh; */
     height: 100vh;
@@ -81,7 +89,7 @@ input:focus {
 }
 
 #title-container {
-    background-color: #FF4949;
+    background-color: #16697A;
     color: #FFFFFF;
     display: flex;
     justify-content: center;
@@ -104,9 +112,11 @@ input:focus {
 #todo-list {
     margin-top: 3vh;
     background-color: #FFFFFF;
-    color: #8C8C8C;
     min-height: 30vh;
     border-radius: 5px;
+    font-size: 18pt;
+    display: flex;
+    flex-direction: column;
     box-shadow:
   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
   0 6.7px 5.3px rgba(0, 0, 0, 0.048),
