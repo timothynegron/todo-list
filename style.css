@@ -64,11 +64,14 @@ input:focus {
     /* margin-left: 5vh; */
 }
 
-li {
+p {
     list-style-type: none;
-    padding: 5px;
-    border-bottom: solid;
-    border-bottom: #777;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* border-bottom: 3px solid #777; */
+    /* border-width: thin; */
+    word-break: break-all;
+    margin-bottom: -10px;
 }
 
 #app {
@@ -115,8 +118,8 @@ li {
     min-height: 30vh;
     border-radius: 5px;
     font-size: 18pt;
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     box-shadow:
   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
   0 6.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -124,4 +127,19 @@ li {
   0 22.3px 17.9px rgba(0, 0, 0, 0.072),
   0 41.8px 33.4px rgba(0, 0, 0, 0.086),
   0 100px 80px rgba(0, 0, 0, 0.12)
+}
+
+@media all and (max-width: 800px){
+    h1 {
+        font-size: 20pt;
+    }
+    p {
+        font-size: 14pt;
+    }
+    button {
+        font-size: 14pt;
+    }
+    input {
+        font-size: 14pt;
+    }
 }

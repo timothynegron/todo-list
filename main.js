@@ -23,10 +23,12 @@ function setEventListeners() {
 }
 
 function addTextToList() {
-    let newLi = document.createElement("li");
+    let newLi = document.createElement("p");
+    console.log(newLi);
     newLi.textContent = document.querySelector("input").value;
+    console.log(newLi);
     newLi.addEventListener("click", liToLineThrough);
-    document.querySelector("ul").appendChild(newLi);
+    document.querySelector("#todo-list").appendChild(newLi);
     document.querySelector("input").value = "";
 }
 
