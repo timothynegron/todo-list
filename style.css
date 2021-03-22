@@ -162,8 +162,12 @@ p {
     }
 
     input {
-        padding: 20px;
         width: 90%;
+        padding: 20px;
+    }
+
+    #app {
+        display: block;
     }
 
 }
