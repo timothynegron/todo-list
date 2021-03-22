@@ -72,6 +72,7 @@ p {
     /* border-width: thin; */
     word-break: break-all;
     margin-bottom: -10px;
+    margin-top: 20px;
 }
 
 #app {
@@ -83,12 +84,8 @@ p {
 }
 
 #app-content-container {
-    min-width: 50%;
-    min-height: 50%;
     font-family: 'Syne Mono', monospace;
-    padding: 20px;
-    width: 200px;
-    height: 150px;
+    width: 600px;
 }
 
 #title-container {
@@ -142,4 +139,29 @@ p {
     input {
         font-size: 14pt;
     }
+    #app-content-container {
+        width: 75%;
+    }
+}
+
+@media all and (max-width: 500px){
+    #app-content-container {
+        width: 95%;
+    }
+    #add-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    button {
+        margin-top: 30px;
+        margin-left: 0px;
+        width: 85%;
+    }
+
+    input {
+        width: 80%;
+    }
+
 }
