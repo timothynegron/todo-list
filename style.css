@@ -159,7 +159,7 @@ p {
         margin-left: 0px;
         width: 100%;
         padding: 30px;
-        
+        line-height: 0;
     }
 
     input {
