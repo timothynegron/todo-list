@@ -112,7 +112,7 @@ p {
 #todo-list {
     margin-top: 3vh;
     background-color: #FFFFFF;
-    min-height: 30vh;
+    min-height: 50vh;
     border-radius: 5px;
     font-size: 18pt;
     /* display: flex; */
@@ -159,6 +159,7 @@ p {
         margin-left: 0px;
         width: 100%;
         padding: 30px;
+        
     }
 
     input {
@@ -168,6 +169,46 @@ p {
 
     #app {
         display: block;
+        margin-top: 30px;
     }
 
+}
+
+@media all and (max-height: 800px){
+
+    #app{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    button {
+        line-height: 0px;
+    }
+}
+
+@media all and (max-height: 1000px){
+    h1 {
+        font-size: 20pt;
+    }
+    p {
+        font-size: 14pt;
+    }
+    button {
+        font-size: 14pt;
+    }
+    input {
+        font-size: 14pt;
+    }
+}
+
+@media all and (max-height: 650px){
+    button {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+    }
+    input {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
 }
