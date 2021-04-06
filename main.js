@@ -1,7 +1,6 @@
 // ┌──────────────────────┐
 // │   Global Variables   │	
 // └──────────────────────┘
-// TODO: Put in object.
 let toDoList = [];
 
 // ┌──────────────────┐
@@ -24,6 +23,8 @@ function main(){
 //        Store into an array using push
 //        Update the list
 //
+//  CASE: Clear list
+//  
 //
 
 function setEventListeners() {
@@ -46,11 +47,15 @@ function liToLineThrough() {
 }
 
 function clearList() {
+    // Empty Array
+    toDoList = [];
 
+    // Update the display
+    updateListDisplay();
 }
 
 function addToList() {
-
+    
 }
 
 function updateListDisplay() {

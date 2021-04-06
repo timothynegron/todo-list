@@ -1,5 +1,6 @@
 h1 {
     font-size: 32pt;
+    margin: 0;
 }
 
 button {
@@ -9,11 +10,10 @@ button {
     border-style: none;
     padding: 5px;
     height: 4vh;
-    width: 25%;
+    width: 100%;
     font-family: 'Syne Mono', monospace;
     color: white;
     font-size: 18pt;
-    margin-left: 1vh;
     box-shadow:
   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
   0 6.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -29,13 +29,12 @@ button:focus {
 
 button:active {
     left: 10px;
-  /* width: 50%; */
-  top: 80%;
-  max-width:300px;
-  background: #FFCBBB;
-  -webkit-box-shadow: 0 35px 20px #777;
-  -moz-box-shadow: 0 35px 20px #777;
-  box-shadow: 0 35px 20px #777;
+    top: 80%;
+    max-width:300px;
+    background: #FFCBBB;
+    -webkit-box-shadow: 0 35px 20px #777;
+    -moz-box-shadow: 0 35px 20px #777;
+    box-shadow: 0 35px 20px #777;
 }
 
 body {
@@ -44,10 +43,9 @@ body {
 
 input {
     border-style: none;
-    padding-left: 3vh;;
     border-radius: 3px;
-    height: 4vh;
-    width: 75%;
+    height: 6vh;
+    width: 99.5%;
     font-size: 18pt;
     font-family: 'Syne Mono', monospace;
     box-shadow:
@@ -93,7 +91,9 @@ p {
     color: #FFFFFF;
     display: flex;
     justify-content: center;
+    align-items: center;
     border-radius: 5px;
+    height: 6vh;
     box-shadow:
   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
   0 6.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -105,14 +105,16 @@ p {
 
 #add-container {
     margin-top: 3vh;
+    height: 20vh;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #todo-list {
     margin-top: 3vh;
     background-color: #FFFFFF;
-    min-height: 50vh;
+    min-height: 30vh;
     border-radius: 5px;
     font-size: 18pt;
     /* display: flex; */
