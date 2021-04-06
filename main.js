@@ -2,8 +2,7 @@
 // │   Global Variables   │	
 // └──────────────────────┘
 // TODO: Put in object.
-// let toDoList = {};
-// let listNumber = 0;
+let toDoList = [];
 
 // ┌──────────────────┐
 // │   Main Program   │	
@@ -14,14 +13,24 @@ function main(){
     setEventListeners();
 }
 
+
 // ┌───────────────┐
 // │   Functions   │	
 // └───────────────┘
+
+
+//  CASE: User enters text to put on the list --> store in array
+//        User enters another text to put on the list again
+//        Store into an array using push
+//        Update the list
+//
+//
 
 function setEventListeners() {
     document.querySelector("button").addEventListener("click", addTextToList);
 }
 
+// Temporary
 function addTextToList() {
     let newLi = document.createElement("p");
     console.log(newLi);
@@ -34,4 +43,16 @@ function addTextToList() {
 
 function liToLineThrough() {
     event.target.style.textDecoration = "line-through";
+}
+
+function clearList() {
+
+}
+
+function addToList() {
+
+}
+
+function updateListDisplay() {
+
 }
