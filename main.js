@@ -55,7 +55,7 @@ function clearList() {
 }
 
 function addToList() {
-    
+    //toDoList = 
 }
 
 function updateListDisplay() {
