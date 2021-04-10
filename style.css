@@ -63,8 +63,6 @@ p {
     list-style-type: none;
     padding-left: 10px;
     padding-right: 10px;
-    /* border-bottom: 3px solid #777; */
-    /* border-width: thin; */
     word-break: break-all;
     margin-bottom: -10px;
     margin-top: 20px;
@@ -137,37 +135,6 @@ p {
     }
     input {
         font-size: 14pt;
-    }
-    #app-content-container {
-        width: 75%;
-    }
-}
-
-@media all and (max-width: 500px){
-    #app-content-container {
-        width: 95%;
-    }
-    #add-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    button {
-        margin-top: 30px;
-        margin-left: 0px;
-        width: 100%;
-        padding: 30px;
-        line-height: 0;
-    }
-
-    input {
-        width: 88%;
-        padding: 20px;
-    }
-
-    #app {
-        margin-top: 50px;
     }
 
 }
